@@ -1,4 +1,4 @@
-# simple-translate
+# gtranslatets
 *Translate stuff simply and fast using your google api credentials.. faster than it already is*
 
 [![Build Status](https://travis-ci.com/bfu4/gtranslatets.svg?token=bypWRsVUoMjidD3wJrUy&branch=master)](https://travis-ci.com/bfu4/gtranslatets)
