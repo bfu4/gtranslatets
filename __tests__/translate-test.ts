@@ -2,6 +2,7 @@
 import { api_key, FRENCH_LIST_ONE, FRENCH_LIST_TWO, project_id, FRENCH_LIST_THREE } from '../__data__/data';
 import { Translator, Translation } from "../src";
 import * as fs from "fs";
+import * as Path from "path";
 
 const translator : Translator = new Translator({ projectId: project_id, apiKey: api_key})
 
@@ -36,6 +37,6 @@ test("Translate list three", async () => {
 })
 
 test("Translate a file", async () => {
-    let res = await translator.translateFile(fs.readFileSync(__dirname + "/file.txt"), "nl");
+    let res = await translator.translateFile(fs.readFileSync(Path.resolve("__data__/file.txt")), "nl");
     expect(res.length).toBe(3);
 })
