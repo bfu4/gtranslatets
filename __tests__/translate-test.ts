@@ -1,5 +1,5 @@
 // @ts-ignore of shame
-import { api_key, FRENCH_LIST_ONE, FRENCH_LIST_TWO, project_id, FRENCH_LIST_THREE } from '../__tests__/data';
+import { api_key, FRENCH_LIST_ONE, FRENCH_LIST_TWO, project_id, FRENCH_LIST_THREE } from '../__data__/data';
 import { Translator, Translation } from "../src";
 import * as fs from "fs";
 
