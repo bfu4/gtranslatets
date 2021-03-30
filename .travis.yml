@@ -1,6 +1,7 @@
 language: node_js
 node_js:
-  - "15"
+- stable
+- '15'
 
 branches:
   only:
