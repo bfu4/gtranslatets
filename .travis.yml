@@ -8,9 +8,6 @@ branches:
 
 jobs:
   include:
-    - stage: test
-      script: 'npm run test'
-
     - stage: npm release
       deploy:
         provider: npm
